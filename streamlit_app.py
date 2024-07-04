@@ -32,7 +32,7 @@ container = st.container()
 
 if query:
     # Initialize the Google PaLM API client
-    api_key = 'AIzaSyDlXYnP2xNNa0DNa7dPN89u2L4IuAchEg4'
+    api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
     llm = GooglePalm(google_api_key=api_key, temperature=0.2)
     
     query_engine = SmartDataframe(
